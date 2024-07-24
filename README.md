@@ -12,7 +12,7 @@ NOTE: this repository contains the KiCAD files for a PCB designed around the con
 * [PCB Breakdown](#pcb-breakdown)
 	* [Multiple Inputs](#multiple-inputs)
 	* [Multiple Outputs](#multiple-outputs)
-	* [Multiple Inputs & Outputs](#multiple-inputs-outputs)
+	* [Multiple Inputs & Outputs](#multiple-inputs-&-outputs)
 * [Known Issues & Limitations](#known-issues-&-limitations)
 	* [One Side Design](#one-side-design)
 	* [Single Input and Output](#single-input-and-output)
