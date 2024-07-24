@@ -1,0 +1,95 @@
+(footprint "Jumper-Wire_50mm_Blue"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "jumper wire 50mm blue")
+	(property "Reference" "REF**"
+		(at -0.508 -2.667 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "34c5db78-fdcf-4d61-a459-d291d22337d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper-Wire_50mm_Blue"
+		(at 0 -4.699 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2fc461c-b9d7-4f7a-9b14-3fd3f00daea4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7598e86-b517-43b0-88f7-755078bf1ee8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "214dce73-f3a8-47e9-a33d-fa6584291043")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4b72e82-79ec-46ab-8afc-d8c77406b79a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at -25 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "ba857d8e-ecc0-4094-8681-68f57fcea017")
+	)
+	(pad "2" thru_hole circle
+		(at 25 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "f0bcaa09-19b9-40a8-a405-9e937a36c104")
+	)
+	(model "${KICAD_USER_3DMOD}/Jumper-Wire_50mm_Blue.step"
+		(offset
+			(xyz -25 0 -10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

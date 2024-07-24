@@ -1,0 +1,98 @@
+(footprint "Jumper-Wire_25mm_Blue"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "jumper wire 25mm blue")
+	(tags "jumper wire 25mm")
+	(property "Reference" "REF**"
+		(at 0.635 -4.445 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3e7aa97a-558e-45b1-a20b-76f5f3b1fa78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper-Wire_25mm_Blue"
+		(at 15.875 -5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22802cdd-7d8e-44db-85f7-2ace0b4f48de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb4fd278-df03-4cc8-8c76-f70d75cba99f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc868f3d-cb2d-4417-b350-36b2e1e7b94d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7854372-5cc9-432a-a115-46c4de979d63")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 1.9)
+		(drill 1)
+		(layers "B.Cu")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.421)
+		(uuid "a8f47b93-f737-4334-87d7-c73370cd8b8c")
+	)
+	(pad "2" thru_hole roundrect
+		(at 25.4 0)
+		(size 3 1.9)
+		(drill 1)
+		(layers "B.Cu")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.421)
+		(uuid "57db772e-8f85-43e2-9aec-e8280d1a2168")
+	)
+	(model "${KICAD_USER_3DMOD}/Jumper-Wire_25mm_BLUE.step"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

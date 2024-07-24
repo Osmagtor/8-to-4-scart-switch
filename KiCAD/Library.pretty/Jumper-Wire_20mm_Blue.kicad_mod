@@ -1,0 +1,96 @@
+(footprint "Jumper-Wire_20mm_Blue"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "jumper wire 20mm blue")
+	(tags "jumper wire 20mm")
+	(property "Reference" "REF**"
+		(at 0.635 -4.445 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c428560b-8116-4aca-a4af-ceb23355d2c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jumper-Wire_20mm_Blue"
+		(at 15.875 -5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd8cb914-1ee9-41f8-bd05-84195cf3ae67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "957a5085-5817-4cb6-9bab-54b511d5ae3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd22ffd7-4311-42f4-a473-23232ffda48b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59f2fb6f-bf32-4e49-a6cd-9d4dfd9113a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35e871f5-45f8-47ce-bc33-d6c312042b4f")
+	)
+	(pad "2" thru_hole circle
+		(at 20.066 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc8befd6-4de3-4099-ae09-cde0359542c3")
+	)
+	(model "${KICAD_USER_3DMOD}/Jumper-Wire_20mm_Blue.step"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

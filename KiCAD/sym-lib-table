@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Triple RCA")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty/Triple RCA.kicad_sym")(options "")(descr ""))
+)
