@@ -10,9 +10,9 @@ NOTE: this repository contains the KiCAD files for a PCB designed around the con
 ## Table of Contents
 
 * [PCB Breakdown](#pcb-breakdown)
-	* [Source Material](#source-material)
-	* [Reversed Source Material](#reversed-source-material)
-	* [Merging all Source Material](#merging-all-source-material)
+	* [Multiple Inputs](#multiple-inputs)
+	* [Multiple Outputs](#multiple-outputs)
+	* [Multiple Inputs & Outputs](#multiple-inputs-&-outputs)
 * [Known Issues & Limitations](#known-issues-&-limitations)
 	* [One Side Design](#one-side-design)
 	* [Single Input and Output](#single-input-and-output)
@@ -20,9 +20,9 @@ NOTE: this repository contains the KiCAD files for a PCB designed around the con
 
 ## PCB Breakdown
 
-### Source Material
+### Multiple Inputs
 
-The design of the board largely borrows from inexpensive SCART switches that I have found in hardware stores, like the one pictured below, and whose overall quality I can vouch for after years of use.
+The design of the board largely borrows from inexpensive dime in a dozen SCART switches that I have found in hardware stores, like the one pictured below, and whose overall quality I can vouch for after years of use.
 
 ![Source SCART Switch](photos/PXL_20240723_123420564.jpg)
 
@@ -54,7 +54,7 @@ There is only two pins left to address: pin 8 (Status & Aspect Ratio) and pin 16
 While, the mechanism holding all spring-loaded push buttons together only allows one button to be pushed down at once, it is possible to brute force multiple switches into a pushed down state. As such, the diodes preclude any of the previous signals from feeding back into one another and causing any kind of mayhem. As to why these signals are not routed through the push buttons using sets of 24 pins instead, costs and/or availability may be to blame. When sourcing for these same type of push buttons for this project's PCB design, sets of 24 pin push buttons where much harder to come by and more expensive to boot. It could also be that the board only being printed one side, it couldn't accommodate for even more bespoke traces and all the ensuing jump wires.
 
 Finally, the RGB push button on the switch simply allows the RGB signal through, telling the receiving device to use the signals from the RGB pins for video and the signal from the Composite Video pin as sync ("csync"). When the button is not pushed down, the RGB signal is cut off, telling the receiving device to use the signal from the Composite Video pin for the video signal. 
-### Reversed Source Material
+### Multiple Outputs
 
 ![Modified SCART Switch PCB](photos/PXL_20240405_095649749.jpg)
 
@@ -71,13 +71,13 @@ Therefore, to change the selected SCART output port, it was necessary to push do
 ![Modified SCART Switch Box & Labels](photos/PXL_20240406_211055275.jpg)
 
 The "RGB", "B-A" and "C-A" buttons were used since the "RGB" push-button was no longer needed for its intended purpose (after all, that was already handled by the same push-button on the 3-to-1 SCART switch) and the "B-A" and "C-A" push buttons were of no use to me.
-### Merging all Source Material
+### Multiple Inputs & Outputs
 
 ![Prototype PCB 1](photos/Untitled3.png)
 
 ![Prototype PCB 2](photos/Untitled4.png) 
 
-Designing a SCART switch with multiple input and output ports consisted of merging the design of (1) the inexpensive quality SCART switch that I had reversed-engineered and (2) the other one whose directionality had successfully been reversed. 
+Designing a SCART switch with multiple input and output ports consisted of merging the design of (1) the inexpensive quality SCART switch that I had and (2) the other one whose directionality had successfully been reversed. 
 
 The design of the area comprising the SCART input ports, the RCA ports and the RGB Selection push button was fairly straightforward. All that changed was the number of SCART ports, which was expanded from 3 to 8, and the output RCA port, which I completely removed as I had no real use for them.
 
