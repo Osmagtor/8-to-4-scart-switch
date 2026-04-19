@@ -1,5 +1,7 @@
 # 8-to-4 SCART Switch
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P71I1ITU)
+
 ![8-to-4 SCART Switch Prototype](photos/Untitled2.jpg)
 
 The "8-to-4 SCART Switch" is an open source PCB design for a passive SCART switch capable of (1) redirecting the signal of the selected SCART input device to the selected SCART output device and (2) selecting how the incoming signal is to be sent out (composite/RGB with composite sync or "csync"). It can accommodate for an RCA port to introduce a stereo audio signal or a lightgun signal into the selected output SCART cable.
