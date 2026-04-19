@@ -1,6 +1,14 @@
 # 8-to-4 SCART Switch
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P71I1ITU)
+<br>
+<div align="center">
+    <picture>
+      <a href="https://ko-fi.com/P5P71I1ITU">
+        <img src="https://ko-fi.com/img/githubbutton_sm.svg">
+      </a>
+    </picture>
+</div>
+<br>
 
 ![8-to-4 SCART Switch Prototype](photos/Untitled2.jpg)
 
